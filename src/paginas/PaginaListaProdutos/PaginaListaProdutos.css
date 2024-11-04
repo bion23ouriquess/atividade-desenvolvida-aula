@@ -1,0 +1,31 @@
+.descricao-produto_root{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nome-produto{
+    padding: 13px;
+}
+.preco-produto{
+    padding: 13px;
+}
+
+.pagina-lista-produtos_mensagem-vazia{
+    text-align: center;
+    margin-top: 48px;
+}
+.pagina-lista-produtos_mensagem-vazia > input {
+    flex: 1;
+}
+
+.lista-produtos_item{
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    background-color:var(--cor-texto-claro);
+    
+}
+.lista-produtos_item > span{
+    flex: 1;
+}
